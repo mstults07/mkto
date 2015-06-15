@@ -427,11 +427,11 @@ th {
 }
 
 
-
+/* testing
 div {
   border: 1px solid #333333;
 }
-
+*/
 
 .content {
   width: 47.5rem;
@@ -444,7 +444,6 @@ div {
 .header {
   width: 960px;
   margin-left: 25%;
-  margin-right: 25%;
 }
 
 /* Top Section */
@@ -467,7 +466,7 @@ div {
   z-index: 9999;
   margin-top: 2rem;
   position: fixed;
-  margin-left: 32rem;
+  margin-left: 34rem;
   text-align: center;
 }
 .form{
