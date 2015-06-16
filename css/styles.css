@@ -649,6 +649,13 @@ header div {
     }
     .section-1 p {
       clear: both;
+      text-align: left;
+    }
+    #Paragraph1 {
+      font-size: 16px;
+    }
+    #Paragraph2 {
+      font-size: 18px;
     }
  }
 
