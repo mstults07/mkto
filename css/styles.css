@@ -427,11 +427,21 @@ th {
 }
 
 
-
+/* testing
 div {
   border: 1px solid #333333;
+} */
+
+section {
+  clear: both;
 }
 
+header { 
+  width: 100%;
+  background-color: #FF6a13;
+  margin: 0;
+  height: 233px;
+}
 
 .content {
   width: 47.5rem;
@@ -444,21 +454,14 @@ div {
 
 
 /* Top Section */
-.top {
-  height: 233px;
-  background-color: #FF6a13;
-  width: 100%;
-  text-align: center;
-}
-.header {
+header div {
   width: 960px;
   margin: 0 auto;
 }
 .logo {
+  height: 100%;
   float: left;
-}
-.diamonds {
-  float: right;
+  margin-left: 5rem;
 }
 
 /* Form */
@@ -498,7 +501,7 @@ div {
   color: #666666;
   font-weight: 400;
   line-height: 1em;
-  margin-top: 1em;
+  margin-top: .5em;
   margin-left: 0;
 }
 .icons {
@@ -577,3 +580,34 @@ div {
   display: inline-block;
   margin-right: 1rem;
 }
+
+/* Responsive Styles */
+
+@media screen and (max-width: 800px){
+  .content {
+    width: 100%;
+  }
+  .copy{
+    width: 66%;
+    padding-right: 1rem;
+  }
+  .formwrap {
+    margin-left: 66%;
+  }
+  header {
+    width:100%;
+  }
+  header div {
+    width: 100%;
+  }
+  .logo {
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+  hr {
+    width: 95%;
+    margin-left: 0;
+  }
+ 
+  }
