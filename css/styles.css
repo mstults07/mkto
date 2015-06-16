@@ -625,6 +625,9 @@ header div {
     .buckets img{
       width: 90% !important;
     }
+    .formwrap {
+      position: absolute;
+    }
 }
  @media only screen and (max-width: 480px){
     .content {
